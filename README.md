@@ -11,6 +11,11 @@ Open Anaconda Prompt and Navigate to folder where env.yml is downloaded or place
   >cd Downloads
   >conda env create -f nlp_course_env.yml
 ```
+To Activate/Deactivate this Environment, use
+```bash
+  >conda activate nlp_course
+  >conda deactivate nlp_course
+```
 
 ## How env.yml looks like
 
