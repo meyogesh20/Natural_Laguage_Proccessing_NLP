@@ -18,7 +18,7 @@ To Activate/Deactivate this Environment, use
 ```
 
 ## How env.yml looks like
-
+```yml
 name: nlp_course
 channels:
   - defaults
@@ -34,3 +34,4 @@ dependencies:
   - jupyter=1.0.0
 
 prefix: C:\Users\Marcial\Anaconda3\envs\nlp_course
+```
