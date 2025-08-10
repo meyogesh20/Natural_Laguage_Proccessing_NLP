@@ -35,3 +35,16 @@ dependencies:
 
 prefix: C:\Users\Marcial\Anaconda3\envs\nlp_course
 ```
+## How to register virtual env kernel for jypter Notebook ?
+```python -m ipykernel install --user --name=myenv --display-name "Python (myenv)"```
+
+## How to see registered list of virtual env for jupyter kernel ?
+```jupyter kernelspec list```
+
+## How to remove old virtual Env kernels ?
+```jupyter kernelspec uninstall old_env```
+You will be asked for confirmation 
+`Remove the kernel spec for 'old_env'? [y/N] y`
+
+
+
